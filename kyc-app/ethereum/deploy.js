@@ -2,7 +2,7 @@ const HDWalletProvider = require("truffle-hdwallet-provider");
 const Web3 = require("web3");
 const Kyc = require("./build/Kyc.json");
 const provider = new HDWalletProvider(
-  "urge firm village vintage clap farm guilt category bracket chef thank machine",
+  "Keep your phasphrase",
   " https://rinkeby.infura.io/v3/51223dfaae564927b29e609d0705fa12"
 );
 const web3 = new Web3(provider);
